@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background-color: rgb(175, 67, 108);
+    color: white;
+}
+
+form {
+    background-color: rgb(128, 0, 60);
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+}
+
+input[type="text"], input[type="password"], input[type="tel"], input[type="email"], select {
+    padding: 12px 24px;
+    width: 300px;
+}
+
+textarea {
+    width: 300px;
+}
+
+#btn {
+    padding: 12px 24px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}

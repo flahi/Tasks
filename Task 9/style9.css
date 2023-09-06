@@ -1,0 +1,14 @@
+a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 12px 24px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    left: 0;
+}

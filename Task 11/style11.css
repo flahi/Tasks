@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.formContainer {
+    width: 30%;
+    border: 3px solid #800000b4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+img {
+    border-radius: 50%;
+    margin: 30px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #cdcdcd;
+}
+
+input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+}
+
+.canc {
+    border-top: 1px solid #cdcdcd;
+    padding: 12px 0;
+    background-color: #e5e5e5;
+    height: 60px;
+}
+
+.canc button {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: white;
+    float: left;
+}
+
+.canc span{
+    float: right;
+}
